@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Дмитрий](https://up.htmlacademy.ru/htmlcss-individual/2/user/2625583).
-* Наставник: `Неизвестно`.
+* Наставник: [Оксана](https://htmlacademy.ru/profile/id166797)
 * Адрес сайта: [Мой проект](https://sdmdv1.github.io/2625583-sedona-2/)
 ---
 
