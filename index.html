@@ -1,12 +1,111 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
+    <link rel="stylesheet" href="main.css">
     <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <title>HTML Academy: Седона</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
-
+    <header>
+      <img class="logo" src="img/logo.png" alt="logo_header">
+      <nav>
+      <a href="index.html">Главная</a>
+      <a href="#">О Седоне</a>
+      <a href="catalog.html">Гостиницы</a>
+      </nav>
+      <img class="header_search" src="img/search.png" alt="serch">
+      <img class="header_like" src="img/heart.png" alt="like">
+      <button type="button" class="header_btn">ХОЧУ СЮДА!</button>
+    </header>
+    <main>
+      <img class="main_welcome" src="img/welcome.svg" alt="welcome">
+    </main>
+    <section class="about">
+      <h2>СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,<br>ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</h2>
+      <p class="second_p">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+    </section>
+    <section class="city">
+      <img src="img/background_city.jpg" class="city_img" alt="pic_city">
+      <div class="city_text">
+      <h3>НАСТОЯЩИЙ<br>ГОРОДОК</h3>
+      <div class="white_line"></div>
+      <p class="third_p">Седона — не аттракцион для<br>туристов, там течёт своя<br>жизнь</p>
+      </div>
+    </section>
+    <section class="plus_first">
+      <div class="plus_first_square">
+      <h3>НЕБОЛЬШАЯ<br>ПЛОЩАДЬ</h3>
+      <div class="black_line"></div>
+      <p class="first_p">Все достопримечательности<br>находятся очень близко</p>
+      </div>
+      <div class="plus_first_road">
+      <h3>КРАСИВАЯ<br>ДОРОГА</h3>
+      <div class="black_line"></div>
+      <p class="first_p">Ехать в Седону из Лас-Вегаса<br>совсем не скучно!</p>
+      </div>
+      <div class="plus_first_tourist">
+      <h3>МАЛО<br>ТУРИСТОВ</h3>
+      <div class="black_line"></div>
+      <p class="first_p">Большинство едет в Гранд<br>Каньон и толпится там</p>
+      </div>
+    </section>
+    <section class="canyon">
+      <img src="img/canyon_background.jpg" class="canyon_img">
+      <div class="canyon_text">
+      <h3>ТАМ ЕСТЬ<br>МОСТ ДЬЯВОЛА</h3>
+      <div class="white_line"></div>
+      <p class="third_p">Да, по нему можно пройти!<br>Если вы осмелитесь,<br>разумеется</p>
+      </div>
+    </section>
+    <section class="come">
+      <h2>ПРИЕЗЖАЙТЕ В СЕДОНУ ОТДОХНУТЬ<br>В КОМФОРТЕ И УЮТЕ</h2>
+      <p class="second_p">Опытный персонал и качественное обслуживание!</p>
+    </section>
+    <section class="plus_second">
+      <div class="plus_second_house">
+      <img class="plus_second_house_img" src="img/house.png" alt="house">
+      <h3>ЖИЛЬЕ</h3>
+      <p class="first_p">Рекомендуем пожить<br>в настоящем мотеле,<br>всё как в кино!</p>
+      </div>
+      <div class="plus_second_food">
+      <img class="plus_second_food_img" src="img/burger.png" alt="burger">
+      <h3>ЕДА</h3>
+      <p class="first_p">Всегда заказывайте<br>топовый фирменный бургер,<br>вы не разочаруетесь!</p>
+      </div>
+      <div class="plus_second_present">
+      <img class="plus_second_present_img" src="img/present.png" alt="present">
+      <h3>СУВЕНИРЫ</h3>
+      <p class="first_p">Не только китайского,<br>но и настоящего местного<br>производства!</p>
+      </div>
+    </section>
+    <section class="int">
+      <div class="int_text">
+        <h2>ЗАИНТЕРЕСОВАЛИСЬ?</h2>
+        <p class="second_p">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        <button type="button" class="int_btn">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
+             <!--- <dialog class="modal" id="modal">
+        <p>Привет</p>
+        <button>Закрыть</button>
+      </dialog> зародок модального окна -->
+      </div>
+    </section>
+    <section class="form">
+      <form>
+        <h2 class="form_h2">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h2>
+        <p class="form_p">Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <input type="email" placeholder="Ваш e-mail" class="email_input">
+        <button type="submit" class="form_btn">ПОДПИСАТЬСЯ</button>
+      </form>
+    </section>
+    <footer>
+      <a href="https://vk.com/htmlacademy"><img class="footer_vk" src="img/vk.png" alt="vk"></a>
+      <a href="https://t.me/htmlacademy"><img class="footer_tg" src="img/tg.png" alt="tg"></a>
+      <a href="https://www.youtube.com/user/htmlacademyru"><img class="footer_yt" src="/img/yt.png" alt="tg"></a>
+      <a href="tel:+7(812)8121212">+7 (812) 812-12-12</a>
+      <a href="https://htmlacademy.ru/"><img class="footer_logo" src="img/logo_htmlacademy.png" alt="logo_footer"></a>
+    </footer>
   </body>
 </html>
