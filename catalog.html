@@ -10,7 +10,7 @@
   </head>
   <body>
     <header class="page_header">
-      <a class="navigation_logo"><img class="logo" src="img/logo.png" alt="Логотип HTML Academy: Седона"></a>
+      <a class="navigation_logo" href="/index.html"><img class="logo" src="img/logo.png" alt="Логотип HTML Academy: Седона"></a>
       <nav class="navigation">
         <ul class="navigation_list">
           <li class="navigation_item"><a href="index.html" class="navigation_link">Главная</a></li>
@@ -30,6 +30,7 @@
         <ul class="breadcrumbs">
           <li class="breadcrumbs_item"><a class="breadcrumbs_link visual_hidden" href="index.html">Главная</a></li>
           <li class="breadcrumbs_item"><a class="breadcrumbs_link">Гостиницы</a></li>
+      <form class="catalog_filter_form">
         <fieldset class="catalog_filter_group">
           <legend class="catalog_filter_title">Инфраструктура:</legend>
               <ul class="catalog_filter_list">
@@ -72,12 +73,13 @@
         <fieldset class="catalog_filter_group">
           <input type="number" placeholder="0">
           <input type="number" placeholder="9000">
-          <button type="submit" class="catalog_filter_accept_btn catalog_btn">Применить</button>
-          <button type="reset" class="catalog_filter_reset_btn">Сбросить</button>
         </fieldset>
         <fieldset class="catalog_filter_group">
           <input type="range" min="0" max="100" step="1" value="80">
         </fieldset>
+        <button type="submit" class="catalog_filter_accept_btn catalog_btn">Применить</button>
+        <button type="reset" class="catalog_filter_reset_btn">Сбросить</button>
+      </form>
       </header>
       <section class="hostel_list">
         <h2 class="hostel_title">Найдено гостиниц: 38</h2>
