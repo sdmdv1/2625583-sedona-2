@@ -69,13 +69,13 @@
             </label>
           </li>
         </fieldset>
-        <section class="panel">
-        <input type="number" placeholder="0">
-        <input type="number" placeholder="9000">
-        <input type="range" min="0" max="100" step="1" value="80">
-        <input type="submit" class="accept_btn" placeholder="Применить">
-        <input type="reset" class="reset_btn">
-        </section>
+        <fieldset class="catalog_filter_group">
+          <input type="number" placeholder="0">
+          <input type="number" placeholder="9000">
+          <input type="range" min="0" max="100" step="1" value="80">
+          <button type="submit" class="catalog_filter_accept_btn catalog_btn">Применить</button>
+          <button type="reset" class="catalog_filter_reset_btn">Сбросить</button>
+        </fieldset>
       </header>
       <section class="hostel_list">
         <h2 class="hostel_title">Найдено гостиниц: 38</h2>
@@ -99,7 +99,7 @@
           <p class="card_description">Гостиница</p>
           <p class="card_cost">От 4000 ₽</p>
           <a class="card_more" href="#">Подробнее</a>
-          <a class="card_favorite" href="#">В избранное</a>
+          <a class="card_favorite catalog_btn" href="#">В избранное</a>
           <p class="card_raiting">Рейтинг: 8,5</p>
         </li>
         <li class="card_item">
@@ -121,7 +121,7 @@
           <p class="card_description">Гостиница</p>
           <p class="card_cost">От 2500 ₽</p>
           <a class="card_more btn" href="#">Подробнее</a>
-          <a class="card_favorite" href="#">В избранное</a>
+          <a class="card_favorite catalog_btn" href="#">В избранное</a>
           <p class="card_raiting">Рейтинг: 6,9</p>
         </li>
         <li class="card_item">
@@ -132,7 +132,7 @@
           <p class="card_description">Гостиница</p>
           <p class="card_cost">От 1500 ₽</p>
           <a class="card_more btn" href="#">Подробнее</a>
-          <a class="card_favorite" href="#">В избранное</a>
+          <a class="card_favorite catalog_btn" href="#">В избранное</a>
           <p class="card_raiting">Рейтинг: 5,0</p>
         </li>
       </ul>
