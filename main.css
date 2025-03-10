@@ -1,0 +1,342 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/ptsans-700.woff2);
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/ptsans-400.woff2);
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  background-color: #fff;
+  color: #000;
+  margin: 0 40px;
+}
+a {
+  text-decoration: none;
+}
+
+.navigation_link {
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+}
+
+.btn {
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  background-color: #756157;
+  text-align: center;
+  padding: 8px 50px;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+.welcome_sedona {
+  background-image: url(images/main_background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 485px;
+}
+
+.welcome_img {
+  background-image: url(images/welcome.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 458px;
+  height: 352px;
+}
+
+.about {
+  background-color: #fff;
+  height: 261px;
+  width: 100%;
+}
+
+.about_title {
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.about_description {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  color: #333;
+}
+
+.city {
+  background-color: #82B3D3;
+  width: 100%;
+  height: 385px;
+}
+
+.city_title {
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  height: 56px;
+  width: 175px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.city_description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  color: #fff;
+  height: 63px;
+  width: 230px;
+}
+
+
+.advantages_title {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000;
+  text-align: center;
+  height: 56px;
+  width: 175px;
+}
+
+.advantages_desciption{
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333;
+  text-align: center;
+  height: 42px;
+  width: 230px;
+}
+
+.canyon {
+  background-color: #82B3D3;
+  width: 100%;
+  height: 385px;
+}
+
+.canyon_title {
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  height: 56px;
+  width: 175px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.canyon_description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  color: #fff;
+  height: 63px;
+  width: 230px;
+}
+
+
+.come {
+  background-color: #fff;
+  height: 246px;
+  width: 100%;
+}
+
+.come_title {
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.come_description {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  color: #333;
+}
+
+.advantages_home_img {
+  background-image: url(images/home.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 75px;
+  height: 72px;
+}
+
+.advantages_burger_img {
+  background-image: url(images/burger.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 75px;
+  height: 72px;
+}
+
+.advantages_present_img {
+  background-image: url(images/present.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 75px;
+  height: 72px;
+}
+
+.block_home {
+  background-color: #83B3D31F;
+  padding: 80px 85px;
+}
+
+.block_burger {
+  background-color: #fff;
+  padding: 80px 85px;
+}
+
+.block_present {
+  background-color: #83B3D31F;
+  padding: 80px 85px;
+}
+
+.interesting {
+  background-color: #fff;
+  height: 406px;
+  width: 100%;
+}
+
+.interesting .btn {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #fff;
+  background-color: #756157;
+  text-align: center;
+  padding: 8px 50px;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+.interesting_title {
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+  height: 36px;
+  width: 297px;
+}
+
+.interesting_description {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  color: #333;
+  height: 52px;
+  width: 592px;
+}
+
+.form {
+  background-image: url(images/form_background.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 415px;
+}
+
+.form_title {
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  height: 36.35px;
+  width: 500px;
+}
+
+.form_description {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  color: #fff;
+  height: 52.51px;
+  width: 475px;
+}
+
+.form_btn {
+  font-size: 20px;
+  line-height: 36px;
+  color: #fff;
+  background-color: #82B3D3;
+  text-align: center;
+  padding: 8px 50px;
+  text-transform: uppercase;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border: none;
+}
+
+.email_input {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000;
+  background-color: #F2F2F2;
+  text-align: left;
+  padding: 12px 20px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+}
+
+.footer_number {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 410px;
+  color: #000;
+}
+
+.footer_link_vk {
+  background-image: url(images/vk.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 14px;
+  width: 24px;
+}
+
+.footer_link_tg {
+  background-image: url(images/tg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 14px;
+  width: 24px;
+}
+
+.footer_link_yt {
+  background-image: url(images/yt.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 14px;
+  width: 24px;
+}
+
+.footer_img {
+  background-image: url(images/HTMLAcademy.svg);
+  width: 115px;
+  height: 33px;
+}
