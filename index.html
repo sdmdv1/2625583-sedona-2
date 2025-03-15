@@ -13,11 +13,11 @@
       <a class="navigation_logo" href="index.html"><img class="logo" src="images/logo.svg" alt="Логотип HTML Academy: Седона"></a>
       <nav class="navigation">
         <ul class="navigation_list">
-          <li class="navigation_item"><a href="index.html" class="navigation_link">Главная</a></li>
+          <li class="navigation_item"><a href="index.html" class="navigation_link">Главная</a></li> <!---изменить ли и сслки на новые строки-->
           <li class="navigation_item"><a class="navigation_link">О Седоне</a></li>
           <li class="navigation_item"><a href="catalog.html" class="navigation_link">Гостиницы</a></li>
         </ul>
-        <ul class="navigation_list navigation_user">
+        <ul class="navigation_user">
           <li class="navigation_item"><a class="navigation_link" href="#"><span class="visual_hidden">Поиск</span></a></li>
           <li class="navigation_item"><a class="navigation_link" href="#"><span class="visual_hidden">Понравилось</span></a></li>
           <li class="navigation_item"><a class="navigation_link btn" href="#">Хочу сюда!</a></li>
@@ -27,20 +27,20 @@
     <main class="main_index">
     <section class="welcome_sedona">
       <h1 class="visual_hidden">HTML Academy: Седона</h1>
-      <img src="img/welcome_img.svg" alt="Добро пожаловать в Седону, потому что наш горд лучше чем Гранд Каньон" class="welcome_img">
+      <img src="images/welcome.svg" alt="Добро пожаловать в Седону, потому что наш горд лучше чем Гранд Каньон" class="welcome_img" width="458" height="352">
     </section>
     <section class="about">
       <h2 class="about_title">Седона - небольшой городок в Аризоне, заслуживающий большего!</h2>
       <p class="about_description">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
     </section>
     <section class="city">
-      <ul class="city_list">
-        <li class="city_item">
+      <div class="container_text">
           <h3 class="city_title">Настоящий городок</h3>
           <p class="city_description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-        </li>
-      </ul>
-      <img src="images/city_background.jpg" alt="Фотография красивого города Седоны" class="city_img" width="800px" height="385px">
+      </div>
+      <div class="container_img">
+      <img src="images/city_background.jpg" alt="Фотография красивого города Седоны" class="city_img" width="800" height="385">
+      </div>
     </section>
     <section class="advantages">
       <h2 class="visual_hidden">Преимущества</h2>
@@ -98,9 +98,9 @@
           <a class="interesting_link btn">Поиск гостиниц в Седоне</a>
     </section>
     <section class="form">
+      <h2 class="form_title">Подпишитесь на рассылку</h2>
+      <p class="form_description">Только полезная информация и никакого спама, честное бойскаутское!</p>
       <form action="#" method="post">
-        <h2 class="form_title">Подпишитесь на рассылку</h2>
-        <p class="form_description">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <input type="email" placeholder="Ваш e-mail" class="email_input">
         <button type="submit" class="form_btn">Подписаться</button>
       </form>
