@@ -383,6 +383,7 @@ img {
   background-image: url(images/vk.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  display: block;
   height: 14px;
   width: 24px;
 }
@@ -391,6 +392,7 @@ img {
   background-image: url(images/tg.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  display: block;
   height: 14px;
   width: 24px;
 }
@@ -399,6 +401,7 @@ img {
   background-image: url(images/yt.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  display: block;
   height: 14px;
   width: 24px;
 }
@@ -411,6 +414,10 @@ img {
 
 .social_list {
   display: flex;
+}
+
+.social_item {
+  padding: 0 10px;
 }
 
 .footer_container {
