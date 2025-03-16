@@ -18,8 +18,8 @@
           <li class="navigation_item"><a href="catalog.html" class="navigation_link">Гостиницы</a></li>
         </ul>
         <ul class="navigation_user">
-          <li class="navigation_item"><a class="navigation_link" href="#"><span class="visual_hidden">Поиск</span></a></li>
-          <li class="navigation_item"><a class="navigation_link" href="#"><span class="visual_hidden">Понравилось</span></a></li>
+          <li class="navigation_item"><a class="navigation_link navigation_search" href="#"><span class="visual_hidden">Поиск</span></a></li>
+          <li class="navigation_item"><a class="navigation_link navigation_like" href="#"><span class="visual_hidden">Понравилось</span></a></li>
           <li class="navigation_item"><a class="navigation_link btn" href="#">Хочу сюда!</a></li>
         </ul>
       </nav>
@@ -34,39 +34,39 @@
       <p class="about_description">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
     </section>
     <section class="city">
-      <div class="container_text">
-          <h3 class="city_title">Настоящий городок</h3>
-          <p class="city_description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+      <div class="city_container_text">
+        <h3 class="city_title">Настоящий городок</h3>
+        <p class="city_description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
       </div>
-      <div class="container_img">
-      <img src="images/city_background.jpg" alt="Фотография красивого города Седоны" class="city_img" width="800" height="385">
+      <div class="city_container_img">
+        <img src="images/city_background.jpg" alt="Фотография красивого города Седоны" class="city_img" width="800" height="385">
       </div>
     </section>
     <section class="advantages">
       <h2 class="visual_hidden">Преимущества</h2>
       <ul class="advantages_list">
-        <li class="advantages_item">
+        <li class="advantages_item advantages_square">
           <h3 class="advantages_title">Небольшая площадь</h3>
           <p class="advantages_desciption">Все достопримечательности находятся очень близко</p>
         </li>
-        <li class="advantages_item">
+        <li class="advantages_item advantages_road">
           <h3 class="advantages_title">Красивая дорога</h3>
           <p class="advantages_desciption">Ехать в Седону из Лас-Вегаса совсем не скучно!о</p>
         </li>
-        <li class="advantages_item">
-          <h3 class="advantages_title">Мало туристов</h3>
+        <li class="advantages_item advantages_tourist">
+          <h3 class="advantages_title ">Мало туристов</h3>
           <p class="advantages_desciption">Большинство едет в Гранд Каньон и толпится там</p>
         </li>
       </ul>
     </section>
     <section class="canyon">
-      <ul class="canyon_list">
-        <li class="canyon_item">
-          <h3 class="canyon_title">Там есть мост дьявола</h3>
-          <p class="canyon_description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-        </li>
-      </ul>
-      <img src="images/canyon_background.jpg" alt="Фотография каньона в Седоне" class="canyon_img" height="385px" width="800px">
+      <div class="canyon_container_img">
+        <img src="images/canyon_background.jpg" alt="Фотография каньона в Седоне" class="canyon_img" height="385px" width="805px"> <!--вот тут изменил ширину картинки потому что справа голубой блок не уменьшался чтобы подогнать под блок секцией выше! можно ли так сделать?-->
+      </div>
+      <div class="canyon_container_text">
+        <h3 class="canyon_title">Там есть мост дьявола</h3>
+        <p class="canyon_description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+      </div>
     </section>
     <section class="come">
       <h2 class="come_title">Приезжайте в Седону отдохнуть в комфорте и уюте</h2>
@@ -97,10 +97,10 @@
           <p class="interesting_description">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
           <a class="interesting_link btn">Поиск гостиниц в Седоне</a>
     </section>
-    <section class="form">
+    <section class="form_container">
       <h2 class="form_title">Подпишитесь на рассылку</h2>
       <p class="form_description">Только полезная информация и никакого спама, честное бойскаутское!</p>
-      <form action="#" method="post">
+      <form action="#" method="post" class="form">
         <input type="email" placeholder="Ваш e-mail" class="email_input">
         <button type="submit" class="form_btn">Подписаться</button>
       </form>

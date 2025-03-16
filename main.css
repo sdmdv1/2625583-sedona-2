@@ -24,10 +24,14 @@ body {
   color: #000;
 }
 
+.page_header {
+  background-color: #fff;
+}
+
 .navigation_logo {
   display: block;
   position: absolute;
-  left: 100px;
+  left: 70px;
 }
 
 .main_index {
@@ -39,29 +43,24 @@ a {
   text-decoration: none;
 }
 
-header {
-  width: 1200px;
-  margin: 0 auto;
-}
-
 .navigation {
-  width: 950px;
   display: flex;
-  background-color: red;
+  margin-left: 248px;
+  margin-right: 70px;
+
 }
 
 .navigation_list {
   max-width: 600px;
   margin-right: auto;
   display: flex;
-  background-color: yellow;
 }
 
 .navigation_user {
   max-width: 300px;
   margin-left: auto;
   display: flex;
-  background-color: green;
+
 }
 
 .navigation_link {
@@ -69,6 +68,16 @@ header {
   line-height: 24px;
   color: #000;
   padding: 0 10px;
+}
+
+.navigation_search {
+  background-image: url(images/search.svg);
+  background-repeat: no-repeat;
+}
+
+.navigation_like {
+  background-image: url(images/like.svg);
+  background-repeat: no-repeat;
 }
 
 li {
@@ -104,7 +113,7 @@ li {
 }
 
 .about {
-  padding: 100px 200px;
+  padding: 69px 260px;
   text-align: center;
 }
 
@@ -127,26 +136,22 @@ li {
   display: flex;
 }
 
-.container_text {
+.city_container_text {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
   align-items: center;
-  width: 400px;
+  padding: 91px 85px;
 }
 
 img {
   display: block;
 }
 
-
-
 .city_title {
   font-size: 24px;
   line-height: 28px;
-  text-align: center;
-  height: 56px;
-  width: 175px;
   text-transform: uppercase;
   color: #fff;
 }
@@ -155,19 +160,26 @@ img {
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
-  text-align: center;
   color: #fff;
-  height: 63px;
-  width: 230px;
 }
 
 
 .advantages_item {
-  width: 400px;
-  padding: 0 70px;
+  padding: 113px 85px;
 }
 
 
+.advantages_square {
+  background-color: #83B3D31F;
+}
+
+.advantages_road {
+  background-color: #83B3D333;
+}
+
+.advantages_tourist {
+  background-color: #83B3D31F;
+}
 
 .advantages_title {
   font-size: 24px;
@@ -175,7 +187,6 @@ img {
   text-transform: uppercase;
   color: #000;
   text-align: center;
-
 }
 
 .advantages_desciption{
@@ -184,20 +195,28 @@ img {
   font-weight: 400;
   color: #333;
   text-align: center;
-
 }
+
+ul.advantages_list {
+  padding-left: 0;
+}  /*Пришлось прописывать ибо сдвигается паддингом слева на 40px*/
 
 .canyon {
   background-color: #82B3D3;
-  width: 100%;
-  height: 385px;
+  display: flex;
+}
+
+.canyon_container_text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: right;
+  padding: 91px 85px;
 }
 
 .canyon_title {
   font-size: 24px;
   line-height: 28px;
-  text-align: center;
-
   text-transform: uppercase;
   color: #fff;
 }
@@ -206,15 +225,13 @@ img {
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
-  text-align: center;
   color: #fff;
 }
 
 
 .come {
   background-color: #fff;
-  height: 246px;
-  width: 100%;
+  padding: 64px 348px;
 }
 
 .come_title {
@@ -235,6 +252,7 @@ img {
 
 .advantages_list {
   display: flex;
+  margin: 0;
 }
 
 .advantages_home_img {
@@ -285,7 +303,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 100px 100px;
+  padding: 81px 304px;
 }
 
 .interesting .btn {
@@ -315,13 +333,15 @@ img {
   line-height: 26px;
   text-align: center;
   color: #333;
-
+  padding-bottom: 56px;
+  margin: 0;
 }
 
-.form {
+.form_container {
   background-image: url(images/form_background.jpg);
   background-size: cover;
   text-align: center;
+  padding: 100px 258px;
 }
 
 .form_title {
@@ -339,6 +359,11 @@ img {
   line-height: 26px;
   text-align: center;
   color: #fff;
+  padding-bottom: 54px;
+}
+
+.form {
+  display: flex;
 }
 
 .form_btn {
@@ -347,7 +372,7 @@ img {
   color: #fff;
   background-color: #82B3D3;
   text-align: center;
-  padding: 8px 50px;
+  padding: 8px 41px;
   text-transform: uppercase;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
@@ -365,11 +390,13 @@ img {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
   border: none;
+  width: 412px;
+  height: 28px;
 }
 
 .page_footer {
   display: flex;
-
+  padding: 35px 70px;
 }
 
 .footer_number {
@@ -408,8 +435,11 @@ img {
 
 .footer_img {
   background-image: url(images/HTMLAcademy.svg);
+  background-repeat: no-repeat;
   width: 115px;
   height: 33px;
+  display: block;
+  margin-left: auto;
 }
 
 .social_list {
@@ -422,4 +452,5 @@ img {
 
 .footer_container {
   width: 400px;
+  padding-left: 0;
 }
